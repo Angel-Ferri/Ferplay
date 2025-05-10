@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 255, 0);
+
+}
+body{
+    background: linear-gradient(black,rgb(39, 1, 75) );
+    height: 100vh;
+    /* background: rgb(28, 1, 53); */
+}
+
+.barra{
+    display: flex;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.barra h1{
+    margin-left: 25px;
+}
+
+.barra ul{
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 25px;
+    border: rgb(0, 255, 0) 1px solid;
+    padding: 10px;
+
+}
+.barra ul:hover{
+    padding: 15px;
+    background: rgb(0, 255, 0);
+    color: black;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+    margin-top: 80px;
+}
+.par1, .par2{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(0, 255, 0) outset 1px;
+}
+
+.Principal:hover{
+    background-color: rgb(0, 255, 0);
+    color: black;
+    padding: 10px;
+}
+
+.pantalla{
+    border: 2px rgb(0, 255, 0) solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 450px;
+}
+
+.adapto{
+    margin: 10px;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+.controlfor{
+    border: rgb(0, 255, 0) solid 1px;
+    padding: 20px;
+    max-width: 220px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacto{
+    max-width: 80px;
+    max-height: 80px;
+}
+footer {
+    border: rgb(0, 255, 0) 1px solid;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+  }
+
+.miModal{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.adapto{
+    max-height: 300px;
+}
+
+button{
+    background: rgba(0, 0, 0, 0);
+    border: dashed rgb(0, 255, 0) 2px;
+    padding: 10px;
+}
+
+.opcanal{
+    max-width: 80px;
+    text-align: center;
+}
+
+.opcanal:hover{
+    background: rgba(0, 255, 0, 0.41);
+}
+
+.opcanal img{
+    margin-top: 5px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.opcanal p{
+    height: 5px;
+    color: white;
+}
+
+.cuadros{
+    padding: 50px;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: rgb(0, 255, 0) solid 2px;
+}
+
+.cuadros-a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuadros-a:hover{
+}
+
+.cuadros:hover{
+    color: black;
+    background: rgb(0, 255, 0);
+    border: black solid 6px;
+}
+
+.h3-a:hover{
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+
+.boton {
+
+}
+
+.boton:hover{
+        cursor: pointer;
+}
+input [type="submit"]{
+    cursor: pointer;
+}
